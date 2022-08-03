@@ -13,5 +13,5 @@ docker-compose down # stop server
 
 | Method   | URL                                      | Description                              |
 | -------- | ---------------------------------------- | ---------------------------------------- |
-| `GET`    | `/api/`                             | Retrieve all messages.                      |
-| `GET`   | `/api/item`                             | Single item detail                     |
+| `GET`    | [/api](http://127.0.0.1/api)                             | Retrieve all messages.                      |
+| `GET`   | [/api/items/<pk:id>](http://127.0.0.1/api/items/1)                           | Get single item by id                     |
