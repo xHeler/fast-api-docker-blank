@@ -8,6 +8,7 @@ Simple fast-api project including docker.
 ```shell
 docker build -t <image_name> .
 docker-compose up -d # start server
+docker-compose up -d --build # start and rebuile project
 docker-compose down # stop server
 ```
 

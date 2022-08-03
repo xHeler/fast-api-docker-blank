@@ -32,6 +32,12 @@ jobs:
         # Code formatting with black, check every python file in the src directory 
         black src 
         black --check src
+
+    # Task for testing with pytest
+    - name: Test with pytest
+      run: |
+        pytest
+    
     
     # Task for deploying to Heroku
     - name: Deploy to Heroku 
